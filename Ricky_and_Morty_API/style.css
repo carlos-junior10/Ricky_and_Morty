@@ -1,0 +1,73 @@
+body {
+  background-image: radial-gradient(circle, #051937, #033b5b, #0b607b, #2a8697, #53aeae);
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.descricao p{
+  margin: 0 auto;
+  width: 35%;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: #fff;
+  
+  
+}
+
+.imagens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+section {
+  background-color: aliceblue;
+  border-radius: 25px;
+  height: 350px;
+  margin-bottom: 15px;
+}
+
+img {
+  border-radius: 20px 20px 0 0;
+  height: 300px;
+  width: 300px;
+}
+
+p {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.botao {
+  height: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+button {
+  border-radius: 15px;
+  border: none;
+  background-image: radial-gradient(circle, #033b5b, #0b607b, #2a8697, #53aeae);
+  color: rgb(187, 199, 209);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
