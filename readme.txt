@@ -1,0 +1,1 @@
+Projeto desenvolvido para treinar e utilizar a API The Ricky and Morty.
